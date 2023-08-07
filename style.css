@@ -1,0 +1,123 @@
+/*
+    This is our style sheet!
+    TODO: add the formats you want your elements to have in the index.html page!
+*/
+
+body {
+  background-color: rgb(92, 75, 170);
+  /* background-color: rgb(244, 241, 239); */
+  font-family: 'Lato', sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  line-height: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(214, 214, 214);
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.list-inline li {
+  padding: 8px;
+  display: inline-block;
+}
+
+.list-social li {
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+.list-social li > a > i {
+  color: #6b6b6b;
+}
+
+.list-social li > a > i:hover {
+  color: #141414;
+  transition: color 0.8s;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+#profile-img {
+  width: 200px;
+  height: auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#list-languages li:hover{
+  font-weight: bold;
+  transition: font-weight 0s;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/*
+
+#lang-pt:hover {
+  background-image: url('images/brazil-flag.png');
+}
+
+#lang-fr:hover {
+  background-image: url('images/france-flag.jpg')
+}
+
+#lang-es:hover {
+  background-image: url('images/spain-flag.jpg')
+}
+#lang-eng:hover {
+  background-image: url('images/british-flag.jpg')
+}
+
+*/
